@@ -1,0 +1,22 @@
+#header .top{
+	list-style-type: none;
+	float:right;
+}
+
+li {
+	display: inline;
+}
+
+.left {
+	float: left;
+	width: 100px;
+}
+
+.right {
+	float:right;
+	width: 100px;
+}
+
+.sign {
+	background-color: blue;
+}
