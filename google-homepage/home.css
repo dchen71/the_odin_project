@@ -1,22 +1,92 @@
-#header .top{
-	list-style-type: none;
-	float:right;
+body {
+	font-family: arial;
 }
 
 li {
 	display: inline;
 }
 
+a {
+	text-decoration: none;
+	color:gray;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Space the text evenly */
+#header {
+
+}
+
+.top{
+	list-style-type: none;
+	float:right;
+	position:relative;
+}
+
+/* Figure out how to draw that app box thing*/
+.apps{
+	color:#797979;
+}
+
+.sign {
+	background-color: #4584EE;
+}
+
+.sign a {
+	color: white;
+}
+
+#center {
+	position:fixed;
+
+	top:25%;
+	left:43%;
+}
+
+/* Figure out how to style the submit boxes */
+#submit {
+	position:fixed;
+	bottom: 57.5%;
+	left: 44%;
+}
+
+#submit input {
+	font-size: 11px;
+	background-color: #F2F2F2;
+}
+
+#submit input:hover {
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.search {
+	position: fixed;
+	width:500px;
+	left:35%;
+	top:36.5%;
+}
+
+/* Make the footer box a solid linea the bottom and realign the left and right*/
+#footer {
+	position: absolute;
+	bottom:1%;
+	background-color: #F2F2F2;
+	margin: 0px;
+}
+
 .left {
+	position: relative;
 	float: left;
 	width: 100px;
 }
 
 .right {
-	float:right;
+	position: relative;
+	float: right;
 	width: 100px;
 }
 
-.sign {
-	background-color: blue;
-}
