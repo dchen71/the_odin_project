@@ -1,0 +1,147 @@
+body {
+	font-family: arial;
+	height: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color:gray;
+	font-size: 0.9em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	position: absolute;
+	top:0%;
+	background-color: #F2F2F2;
+	margin-left: -.6em;
+	margin-bottom: -1em;
+	height: 6%;
+	width:100%;
+
+	border: solid;
+	border-color: #E4E4E4;
+	border-width: 1.2px;
+	z-index: -1;
+}
+
+
+/* Figure out how to draw that app box thing*/
+.apps{
+	margin-right: 7em;
+	margin-top: 0em;
+	float:right;
+	z-index: 1;	
+}
+
+.sign {
+	background-color: #4584EE;
+	float:right;
+	margin-right: -7em;
+	margin-top: -0.33em;
+	width:4em;
+	height: 2em;
+	z-index: 1;
+}
+
+.sign a {
+	color: white;
+	position: relative;
+	left: 15%;
+	top: 20%;
+}
+
+#imageG {
+	position:fixed;
+
+	top:2%;
+	left:1%;
+
+	width:82px;
+	height:30px;
+	background: url(nav_logo195.png) -26px -78px;
+}
+
+.search {
+	position: fixed;
+	width:500px;
+	left:7%;
+	top:2%;
+	height: 1.5em;
+}
+
+#searchQ {
+	position: fixed;
+	top:2.5%;
+	left: 35%;
+
+	background-color: blue;
+
+	width:20px;
+	height:20px;
+	background: url(nav_logo195.png) 0px -130px;
+	border-color: blue;
+}
+
+
+#subheader {
+	position: fixed;
+	top:6.5%;
+	left: 4%;
+}
+
+#links{
+	position: relative;
+	top:40%;
+	display: inline;
+	margin-top: 5em;
+	margin-left:1em;
+}
+
+
+
+#footer {
+	position: absolute;
+	bottom:2%;
+	background-color: #F2F2F2;
+	margin-left: -.6em;
+	margin-bottom: -1em;
+	height: 8%;
+	width:100%;
+	
+	overflow: auto;
+
+	border: solid;
+	border-color: #E4E4E4;
+	border-width: 1.2px;
+}
+
+#circle {
+    position:absolute;
+    background: #9A9FA4;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.foot {
+	display: inline;
+	position: relative;
+	font-size: 13px;
+	font-family: arial;
+	left: 1.5%;
+}
+
+#place {
+	color: #AAAAAA;
+	left:1%;
+}
+
+#support {
+	position: relative;
+	bottom: 25%;
+}
