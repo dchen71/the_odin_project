@@ -9,11 +9,11 @@ a {
 	color:gray;
 	font-size: 0.9em;
 }
-
+/*
 a:hover {
 	text-decoration: underline;
 }
-
+*/
 #header {
 	position: absolute;
 	top:0%;
@@ -33,7 +33,7 @@ a:hover {
 /* Figure out how to draw that app box thing*/
 .apps{
 	margin-right: 7em;
-	margin-top: 0em;
+	margin-top: 0.2em;
 	float:right;
 	z-index: 1;	
 }
@@ -42,7 +42,7 @@ a:hover {
 	background-color: #4584EE;
 	float:right;
 	margin-right: -7em;
-	margin-top: -0.33em;
+	margin-top: 0em;
 	width:4em;
 	height: 2em;
 	z-index: 1;
@@ -74,9 +74,10 @@ a:hover {
 	height: 1.5em;
 }
 
-#searchQ {
+.searchQ {
+	/*
 	position: fixed;
-	top:2.5%;
+	top:3%;
 	left: 35%;
 
 	background-color: blue;
@@ -85,6 +86,16 @@ a:hover {
 	height:20px;
 	background: url(nav_logo195.png) 0px -130px;
 	border-color: blue;
+	*/
+	background:url(search.jpg) no-repeat;
+	border:none;
+	cursor: auto;
+	width:54px;
+	height:28px;
+	position: absolute;
+	top:1.8%;
+	left: 36.85%;	
+	z-index: 1;
 }
 
 
@@ -102,7 +113,52 @@ a:hover {
 	margin-left:1em;
 }
 
+#links:hover{
+	text-decoration: none;
+	font-weight: 600;
+}
 
+#links .web {
+	text:red;
+}
+
+#links .web:hover{
+	text-decoration: none;
+	font-weight: 0;
+}
+
+.searchT:hover{
+	font-weight: 0;
+	border:1px solid black;
+	background-color: #F6F6F6;
+	box-shadow: 1px 1px black;
+}
+
+#bar1 {
+	position: absolute;
+	top: 13%;
+	width: 100%;
+	border:1px solid #EBEBEB;
+	margin-left: -.6em;
+}
+
+
+#results {
+	position: absolute;
+	left:7%;
+	top: 13%;
+	color:gray;
+	font-size: 0.9em;
+}
+
+
+#article1 {
+	position: absolute;
+	left: 7%;
+	margin-top: 140px;
+	margin-right:50px ;
+	text-decoration: none;
+}
 
 #footer {
 	position: absolute;
@@ -118,13 +174,16 @@ a:hover {
 	border: solid;
 	border-color: #E4E4E4;
 	border-width: 1.2px;
+	line-height: 5px;
 }
 
 #circle {
     position:absolute;
     background: #9A9FA4;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
+    left:2.5%;
+    top:20%;
     border-radius: 50%;
 }
 
@@ -134,14 +193,19 @@ a:hover {
 	font-size: 13px;
 	font-family: arial;
 	left: 1.5%;
+	line-height: 5px;
 }
 
 #place {
 	color: #AAAAAA;
-	left:1%;
+	left:1.5%;
 }
 
 #support {
 	position: relative;
-	bottom: 25%;
+	right:5%;
+}
+
+#footer a:hover {
+	text-decoration: underline;
 }
