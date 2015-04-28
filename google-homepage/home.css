@@ -1,5 +1,7 @@
 body {
 	font-family: arial;
+	height: 100%;
+	max-width: 100%;
 }
 
 li {
@@ -9,35 +11,45 @@ li {
 a {
 	text-decoration: none;
 	color:gray;
-	font-size: 14px;
+	font-size: 0.9em;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-/* Space the text evenly */
-#header {
 
+#header {
+	float:right;
 }
 
 .top{
 	list-style-type: none;
-	float:right;
 	position:relative;
+	margin-right: 8em;
 }
 
 /* Figure out how to draw that app box thing*/
 .apps{
-	color:#797979;
+	margin-right: -12.2em;
+	margin-top: 0.9em;
+	float:right;	
 }
 
 .sign {
 	background-color: #4584EE;
+	float:right;
+	margin-right: -16.6em;
+	margin-top: 0.6em;
+	width:4em;
+	height: 2em;
 }
 
 .sign a {
 	color: white;
+	position: relative;
+	left: 15%;
+	top: 20%;
 }
 
 #center {
@@ -47,7 +59,6 @@ a:hover {
 	left:43%;
 }
 
-/* Figure out how to style the submit boxes */
 #submit {
 	position:fixed;
 	bottom: 57.5%;
@@ -56,11 +67,16 @@ a:hover {
 
 #submit input {
 	font-size: 11px;
-	background-color: #F2F2F2;
+	background-color: #F4F4F4;
+	border: 1px solid #DBDBDB;
+	width: 9em;
+	height:2em;
+	color: #444400;
+	margin-left: 10px;
 }
 
 #submit input:hover {
-	box-shadow: 2px 2px 5px #888888;
+	box-shadow: 2px 2px 5px #EBEBEB;
 }
 
 .search {
@@ -70,23 +86,39 @@ a:hover {
 	top:36.5%;
 }
 
-/* Make the footer box a solid linea the bottom and realign the left and right*/
+
 #footer {
 	position: absolute;
 	bottom:1%;
 	background-color: #F2F2F2;
-	margin: 0px;
+	margin-left: -.6em;
+	margin-bottom: -1em;
+	height: 5%;
+	width:100%;
+	
+	overflow: auto;
+
+	border: solid;
+	border-color: #E4E4E4;
+	border-width: 1.2px;
 }
 
 .left {
-	position: relative;
+
 	float: left;
 	width: 100px;
+	margin-left: -10px;
+	margin-bottom: 10px;
+	font-size: 0.8em;
 }
 
 .right {
-	position: relative;
+
 	float: right;
-	width: 100px;
+	width:6.5em;
+	margin-left: -2em;
+	right:2em;
+	font-size: 0.8em;
+
 }
 
