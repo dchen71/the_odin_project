@@ -55,10 +55,14 @@ a:hover {
 	top: 20%;
 }
 
-#imageG {
-	position:fixed;
+.sign a:hover{
+	cursor: default;
+}
 
-	top:2%;
+#imageG {
+	position:absolute;
+
+	top:1%;
 	left:1%;
 
 	width:82px;
@@ -67,42 +71,33 @@ a:hover {
 }
 
 .search {
-	position: fixed;
+	position: relative;
 	width:500px;
-	left:7%;
-	top:2%;
+	left:6.5%;
+	top:5%;
+	margin-top: 6px;
 	height: 1.5em;
+	margin-bottom:-5em;
 }
 
 .searchQ {
-	/*
-	position: fixed;
-	top:3%;
-	left: 35%;
-
-	background-color: blue;
-
-	width:20px;
-	height:20px;
-	background: url(nav_logo195.png) 0px -130px;
-	border-color: blue;
-	*/
 	background:url(search.jpg) no-repeat;
 	border:none;
 	cursor: auto;
 	width:54px;
 	height:28px;
 	position: absolute;
-	top:1.8%;
-	left: 36.85%;	
+	top:8.75%;
+	left: 37.2%;	
 	z-index: 1;
+	margin-top: -5em;
 }
 
-
+/* Edit the top var*/
 #subheader {
-	position: fixed;
-	top:6.5%;
-	left: 4%;
+	position: absolute;
+	top:5.5%;
+	left: 3.4%;
 }
 
 #links{
@@ -142,7 +137,7 @@ a:hover {
 	position: absolute;
 	top: 12.5%;
 	width: 2%;
-	left: 7.8%;
+	left: 7.3%;
 	border:1px solid red;
 	margin-left: -.6em;
 }
@@ -197,6 +192,14 @@ a:hover {
 #articles ul li {
 	display:inline;
 \
+}
+
+#bar2 {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	border:1px solid #EBEBEB;
+	margin-left: -.6em;
 }
 
 
