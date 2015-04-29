@@ -147,6 +147,10 @@ a:hover {
 	margin-left: -.6em;
 }
 
+.set {
+		cursor: default;
+}
+
 #settings {
 	position: absolute;
 	right:2%;
