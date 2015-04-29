@@ -40,7 +40,7 @@ a:hover {
 /* Figure out how to draw that app box thing*/
 .apps{
 	margin-right: 7em;
-	margin-top: 0.2em;
+	margin-top: 1em;
 	float:right;
 	z-index: 1;	
 }
@@ -49,7 +49,7 @@ a:hover {
 	background-color: #4584EE;
 	float:right;
 	margin-right: -7em;
-	margin-top: 0em;
+	margin-top: 1em;
 	width:4em;
 	height: 2em;
 	z-index: 1;
@@ -74,15 +74,15 @@ a:hover {
 
 	width:82px;
 	height:30px;
-	background: url(nav_logo195.png) -26px -78px;
+	background: url(nav_logo195.png) -27px -78px;
 }
 
 .search {
 	position: relative;
 	width:500px;
 	left:6.5%;
-	top:5%;
-	margin-top: 6px;
+	top:6%;
+	margin-top: 12px;
 	height: 1.5em;
 	margin-bottom:-5em;
 }
@@ -94,8 +94,8 @@ a:hover {
 	width:54px;
 	height:28px;
 	position: absolute;
-	top:8.75%;
-	left: 37.2%;	
+	top:5.4%;
+	left: 36.8%;	
 	z-index: 1;
 	margin-top: -5em;
 }
@@ -302,7 +302,7 @@ Edit to fix locations of images
 
 #bar2 {
 	position: absolute;
-	top: 34%;
+	top: 29%;
 	width: 100%;
 	border:1px solid #EBEBEB;
 	margin-left: -.6em;
@@ -311,7 +311,7 @@ Edit to fix locations of images
 
 #bar3 {
 	position: absolute;
-	top: 67%;
+	top: 57%;
 	width: 100%;
 	border:1px solid #EBEBEB;
 	margin-left: -.6em;
@@ -320,11 +320,31 @@ Edit to fix locations of images
 
 #bar4 {
 	position: absolute;
-	bottom:15%;
+	bottom:23.5%;
 	width: 100%;
 	border:1px solid #EBEBEB;
 	margin-left: -.6em;
 
+}
+
+#bar5 {
+	position: absolute;
+	bottom:14%;
+	width: 100%;
+	border:1px solid #EBEBEB;
+	margin-left: -.6em;
+
+}
+
+#searches h2 {
+	margin-top: 15px;
+	color: gray;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+#tab td a{
+	color: blue;
 }
 
 #company {
@@ -359,6 +379,162 @@ h2 a:hover{
 
 #tab:hover{
 	text-decoration: underline;
+}
+
+#plink {
+	color:blue;
+	margin-left: 10px;
+}
+
+#plink:hover {
+	text-decoration: underline;
+}
+
+#plink2 {
+	color:blue;
+	margin-left: 20px;
+}
+
+#plink2:hover {
+	text-decoration: underline;
+}
+
+#goooogle {
+	padding-top: 20px;
+}
+
+#g {
+
+	position:absolute;
+
+
+	left:5px;
+	bottom:-15px;
+	width:34px;
+	height:39px;
+	background: url(nav_logo195.png) -20px 0px;
+}
+
+#ro {
+	position:absolute;
+
+	bottom:-15px;
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -54px 0px;
+}
+
+
+#yo1 {
+	position:absolute;
+
+	left:60px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo2 {
+	position:absolute;
+
+	left:80px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo3 {
+	position:absolute;
+
+	left:100px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo4 {
+	position:absolute;
+
+	left:120px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo5 {
+	position:absolute;
+
+	left:140px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo6 {
+	position:absolute;
+
+	left:160px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo7 {
+	position:absolute;
+
+	left:180px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo8 {
+	position:absolute;
+
+	left:200px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#yo9 {
+	position:absolute;
+
+	left:220px;
+	bottom:-15px;
+
+	width:20px;
+	height:39px;
+	background: url(nav_logo195.png) -74px 0px;
+}
+#gle {
+	position:absolute;
+
+	left:240px;
+	bottom:-15px;
+
+	width:60px;
+	height:39px;
+	background: url(nav_logo195.png) -94px 0px;
+}
+
+#rarrow {
+	position:absolute;
+
+	left:280px;
+	bottom:-15px;
+
+	width:13px;
+	height:39px;
+	background: url(nav_logo195.png) -154px 0px;
 }
 
 #footer {
