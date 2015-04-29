@@ -177,15 +177,22 @@ a:hover {
 	top:17%;
 	width: 500px;
 	text-decoration: none;
+	font-size: 14px;
 }
 
 #articles ul {
 	position: relative;
 	left:-8%;
+	margin-top: -14px;
+}
+
+#articles p {
+	margin-top: -16px;
 }
 
 #articles ul li {
 	display:inline;
+\
 }
 
 
@@ -197,6 +204,10 @@ a:hover {
 	color: green;
 }
 
+h2 {
+	margin-bottom: 12px;
+}
+
 h2 a{
 	color:blue;
 	font-size: 15px;
@@ -206,6 +217,13 @@ h2 a:hover{
 	text-decoration: underline;
 }
 
+#tab {
+	color:blue;
+}
+
+#tab:hover{
+	text-decoration: underline;
+}
 
 #footer {
 	position: absolute;
