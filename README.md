@@ -1,2 +1,2 @@
 # ODIN
-Contains projects and misc. files for the one eyed god
+Contains projects and files for the Odin Project

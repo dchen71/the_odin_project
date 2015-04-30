@@ -29,7 +29,7 @@ a:hover {
 	margin-right: 8em;
 }
 
-/* Figure out how to draw that app box thing*/
+/* Figure out how to draw that app box thing using divs*/
 .apps{
 	margin-right: -12.2em;
 	margin-top: 0.9em;
@@ -103,6 +103,7 @@ a:hover {
 	border-width: 1.2px;
 }
 
+/* Maybe unnecessary to split off the two parts like this when probably could played with margins */
 .left {
 
 	float: left;

@@ -1,3 +1,5 @@
+/* Should use less % especially with headers as it messes up the layout a lot or be consistent with it */
+
 body,html {
 	font-family: arial;
 	height: 100%;
@@ -16,11 +18,7 @@ a {
 	color:gray;
 	font-size: 0.9em;
 }
-/*
-a:hover {
-	text-decoration: underline;
-}
-*/
+
 #header {
 	position: absolute;
 	top:0%;
@@ -37,7 +35,7 @@ a:hover {
 }
 
 
-/* Figure out how to draw that app box thing*/
+/* Figure out how to draw that app box thing using boxes*/
 .apps{
 	margin-right: 7em;
 	margin-top: 1em;
@@ -62,10 +60,12 @@ a:hover {
 	top: 20%;
 }
 
+/* To revert this link into arrow instead of hand */
 .sign a:hover{
 	cursor: default;
 }
 
+/* Technically tiled image but basically subset part of the image from main */
 #imageG {
 	position:absolute;
 
@@ -274,6 +274,8 @@ Edit to fix locations of images
 
 }
 */
+
+/* Needs padding since this is the main div before the footer so the footer can be at the bottom*/
 #articles {
 	position: relative;
 	left: 7%;
@@ -300,6 +302,8 @@ Edit to fix locations of images
 
 }
 
+/* Seems like manually making these bars is redundant since it is evenly spaced every three entries and between 
+the related searches */
 #bar2 {
 	position: absolute;
 	top: 29%;
@@ -399,6 +403,8 @@ h2 a:hover{
 	text-decoration: underline;
 }
 
+
+/* Feels like there could have been a better way to setup the image locations for the google pages */
 #goooogle {
 	padding-top: 20px;
 }
@@ -537,6 +543,7 @@ h2 a:hover{
 	background: url(nav_logo195.png) -154px 0px;
 }
 
+/* Needed padding to ensure that the footer remains at the bottom */
 #footer {
 	position: absolute;
 	bottom:0;
