@@ -6,43 +6,59 @@ What is the largest prime factor of the number 600851475143 ?
 
  */
 
-var prime = new Set();
-var highest = 1;
-var number = 1000;
 
 
-if(number >= 1)
-    prime.add(1);
-if(number >= 2)
-    prime.add(2);
-if(number >= 3)
-    prime.add(3);
-if(number >=5)
-    prime.add(5);
-
-for(i=5; i<= number;i++)
+/*
+//Function that checks for a prime number
+function primetest(n)
 {
-    var test = Math.sqrt(29);
-    if(number % i !==0) 
-    {
-        for(j=2; j <= i; j++)
-        {
-            if(i % j === 0)
-                break;
-            else //should do a loop to check through the prime numbers so it can filter %5 %3 correctly
-                prime.add(i);                
+    for(i = 2; i < n; i++){
+        if(n % i === 0){
+            return false;
         }
-
-    }    
+    }
+    return true;
 }
 
+//List of prime numbers from 2 to n
+//Inefficient since at the minimum most can be divided by 2 at some point
+//From here go find the largest divisor using the returned list
+//Don't really need to use a set honestly since everything should be unique
+function primelist(n)
+{
+    var prime = new Set();
+    
+    //Will assume no negative numbers
+    if(n <= 1)
+        prime.add(n);
+    else
+    {
+        for(i = 2; i <= n; i++)
+        {
+            if(primetest(i))
+                prime.add(i);
+        }        
+    }
+    
+    return prime;
+}
+ */
 
 
-prime.forEach(function(value) {
-  console.log(value);
-  highest = Math.max(value);
-});
+//Determines the largest prime factor in a number
+function primetest(x)
+{
+    if(x < 2)
+        return x;
 
-console.log(highest);
-
-
+    prime = 2;
+    while(x > prime)//checks if the factor is greater than the prime number
+        if(x % prime === 0) //if evenly divisble, can shrink it down more since not prime and less calculations
+        {
+            x = x / prime; //creates a even number since this number is not prime
+            prime = 2; //most common divisor
+        }
+        else
+            prime += 1;
+    return prime;
+}
