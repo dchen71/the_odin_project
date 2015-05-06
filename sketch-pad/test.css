@@ -1,0 +1,17 @@
+/*
+Border spacing here achieves spacing between table cells
+ */
+table {
+	padding: 20px;
+	border-spacing: 20px;
+}
+
+/*
+Changes the td to have a border as well as sizes the cells and 
+ */
+tr td{
+	border-style: solid;
+	width: 30px;
+	height: 30px;
+	margin-right: 50px;
+}

@@ -11,18 +11,43 @@ button - has prompt/resets and creates divs
 var row = 3;
 var col = 3;
 
-//Creates the container div
-//May have to create div and then do create class for container
-$(document).ready(function(){
-	$(body).append("<div class='container'></div>");
-});
 
-//Creates the initial set of 3x3 boxes
-$(document).ready(function(){
-	for (var i = 0; i <= row; i++) {
-		for (var i = 0; i <= col; i++) {
-			$(.container).append("<div></div>");
+//$(document).ready(function() {}) = $(function(){})
+/*
+Makes div via plain javascript
+var div = document.createElement("div");
+var element = document.getElementByID("body");
+element.appendChild(div);
+ */
+//Makes the 3x3 grid in the beginning
+$(function(){
+	//Creates the main container div
+	$('body').append("<div></div>");
+	$('div').addClass("container");
+	console.log("phase1");
+
+	//Creates the initial set of 3x3 boxes via tables
+	$('.container').append("<table></table>")
+	for (var i = 0; i < row; i++) {
+		console.log("i" + i);
+		$('table').append("<tr id='tri'></tr>");//figure out how to make it tr + i
+		for (var j = 0; j < col; j++) {
+			$('#tri').append("<td></td>"); // figure out how to make it tr + i
+			console.log(j);
 		};
-	};
+	};	
+
+	//Styles the table into boxes
+	$('table').css('padding', '20px');
+	$('table').css('border-spacing', '20px');
+	$('tr td').css('border-style', 'solid');
+	$('tr td').css('width', '30px');
+	$('tr td').css('height', '30px');
+	$('tr td').css('margin-right', '30px');
 });
 
+
+
+
+
+console.log('css');
