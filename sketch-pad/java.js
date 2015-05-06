@@ -23,47 +23,45 @@ $(function(){
 	$('.container').css('height', '350px');
 
 	//Creates button
-	$('.container').append("<form method=get></form>");
-	$('form').append("<button type=submit value=Submit>Reset</button>");
+	$('.container').append("<button>Reset</button>");
+
 
 	//Creates the initial set of 3x3 boxes via tables
 	$('.container').append("<table></table>")
 	for (var i = 0; i < row; i++) {
 		var trid = "<tr id=tr" + i + "></tr>";
-		$('table').append(trid);//figure out how to make it tr + i
+		$('table').append(trid);
 		for (var j = 0; j < col; j++) {
-			$('#tr' + i).append("<td></td>"); // figure out how to make it tr + i
+			$('#tr' + i).append("<td></td>"); i
 		};
 	};	
 
 	//Styles the table into boxes
-	$('table').css('padding', '20px');
-	$('table').css('border-spacing', '20px');
+	$('table').css('padding', '40px');
 	$('table').css('width', '300px');
 	$('table').css('height', '300px');
+	$('table').css('margin-top', '30px');
 	$('table').css('margin-right', 'auto');
 	$('table').css('margin-left', 'auto');
+	$('table').css('border-collapse', 'collapse');
 	$('td').css('border-style', 'solid');
-	$('td').css('width','5%');
-	$('td').css('height','5%');
-	$('td').css('margin-right', '30px');
+	$('td').css('width','20px');
+	$('td').css('height','20px');
 
 	//Style/position button
-	$('form').css('margin-left','auto');
-	$('form').css('margin-right','auto');
-	$('form').css('width','18%');
+	$('button').css('position','relative');
+	$('button').css('left','50%');
 	$('button').css('border', '1px solid #DBDBDB');
-});
 
-//On hover, changes the color of that td
-$('td').hover(function(){
-	$(this).css('background-color','yellow');
-	console.log("colors");
+	//On hover, changes the color of that td
+	$('td').hover(function(){
+		$(this).css('background-color','yellow');
+	});
 });
 
 //Button handler to take/set new array size
 $(function(){
-	$('button').button().click(function(event){
+	$('button').click(function(event){
 		var size = prompt("Please enter new size");
 		row = size;
 		col = size;
@@ -71,28 +69,34 @@ $(function(){
 	});
 });
 
-
 function rebuild(){
 	//Removes the old table
-	$('.container').remove('table');
-
+	$('table').remove();
+	
 	//Creates the the boxes via tables
 	$('.container').append("<table></table>")
 	for (var i = 0; i < row; i++) {
 		var trid = "<tr id=tr" + i + "></tr>";
-		$('table').append(trid);//figure out how to make it tr + i
+		$('table').append(trid);
 		for (var j = 0; j < col; j++) {
-			$('#tr' + i).append("<td></td>"); // figure out how to make it tr + i
+			$('#tr' + i).append("<td></td>"); 
 		};
 	};	
 
 	//Styles the table into boxes
-	$('table').css('padding', '20px');
-	$('table').css('border-spacing', '20px');
+	$('table').css('padding', '40px');
 	$('table').css('width', '300px');
 	$('table').css('height', '300px');
+	$('table').css('margin-top', '30px');
+	$('table').css('margin-right', 'auto');
+	$('table').css('margin-left', 'auto');
+	$('table').css('border-collapse', 'collapse');
 	$('td').css('border-style', 'solid');
-	$('td').css('width','5%');
-	$('td').css('height','5%');
+	$('td').css('width','20px');
+	$('td').css('height','20px');
 	$('td').css('margin-right', '30px');
+
+	$('td').hover(function(){
+		$(this).css('background-color','yellow');
+	});
 }
