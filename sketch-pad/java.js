@@ -1,4 +1,6 @@
 //Javascript containing the code to create boxes, change color on hover, and number of boxes
+//Version upgrades:
+//random color on hohver/10% opacity change on hover
 
 //Initializes the grid numbers
 var row = 3;
