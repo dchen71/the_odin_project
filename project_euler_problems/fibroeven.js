@@ -16,6 +16,7 @@ var fibroeven = function (input) {
 	var num2 = 0;
 	var temp = 0;
 
+	//builds fibronacci sequence while adding the even values
 	while(num1 < 4000000)
 	{
 	    var temp = num1;

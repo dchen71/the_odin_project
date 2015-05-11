@@ -10,13 +10,13 @@ def primetest(x)
 
     prime = 2
     loop do
-        if(x % prime == 0)
-            x = x / prime
-            prime = 2
+        if(x % prime == 0) #if evenly divisble, can shrink it down more since not prime and less calculations
+            x = x / prime #creates a even number since this number is not prime
+            prime = 2 #most common divisor
         else
             prime += 1
         end
-        break if x <= prime
+        break if x <= prime #checks if the factor is greater than the prime number
     end
 
     return prime

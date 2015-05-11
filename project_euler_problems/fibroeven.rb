@@ -10,6 +10,7 @@ def fibroeven()
 	num2 = 0
 	temp = 0
 	
+	#builds fibronacci sequence while adding the even values
 	loop do
 	    temp = num1
 	    num1 = num1 + num2
@@ -19,6 +20,7 @@ def fibroeven()
 	        sum += num1
 	   	end
 
+	   	#break statement in ruby for loops
 		break if num1 >= 4000000
 	end
 
