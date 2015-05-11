@@ -12,4 +12,8 @@ Contains projects and files for the Odin Project</br>
 		<strong>project euler problems</strong>
 		<li>Contains the first three problems from Project Euler</li>
 	</ul>
+	<ul>
+		<strong>sketch-pad</strong>
+		<li>Creates boxes which change color when hovered over</li>
+	</ul>
 </ul>
