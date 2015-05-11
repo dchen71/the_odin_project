@@ -1,7 +1,15 @@
-# ODIN
-Contains projects and files for the Odin Project__
+# Project ODIN
+Contains projects and files for the Odin Project</br>
 
-google-homepage__
-Contains a sample of the google home search page and a sample search__
-javascript problems__
-Contains the first three problems from Project Euler__
+
+<h4>Contains:</hr>
+<ul> 
+	<ul>
+		<strong>google-homepage</strong>
+		<li>Contains a sample of the google home search page and a sample search</li>
+	</ul>
+	<ul>
+		<strong>project euler problems</strong>
+		<li>Contains the first three problems from Project Euler</li>
+	</ul>
+</ul>
