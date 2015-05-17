@@ -47,6 +47,7 @@ $(function(){
 	$('table').css('margin-left', 'auto');
 	$('table').css('border-collapse', 'collapse');
 	$('td').css('border-style', 'solid');
+	$('td').css('border-width', '1px');
 	$('td').css('width','20px');
 	$('td').css('height','20px');
 
@@ -94,6 +95,7 @@ function rebuild(){
 	$('table').css('margin-left', 'auto');
 	$('table').css('border-collapse', 'collapse');
 	$('td').css('border-style', 'solid');
+	$('td').css('border-width', '1px');
 	$('td').css('width','20px');
 	$('td').css('height','20px');
 	$('td').css('margin-right', '30px');
