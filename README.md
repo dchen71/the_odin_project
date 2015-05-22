@@ -2,7 +2,7 @@
 Contains projects and files for the Odin Project</br>
 
 
-<h4>Contains:</hr>
+<h4>Contains:</h4>
 <ul> 
 	<ul>
 		<strong>google-homepage</strong>
