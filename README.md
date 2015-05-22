@@ -5,15 +5,23 @@ Contains projects and files for the Odin Project</br>
 <h4>Contains:</h4>
 <ul> 
 	<ul>
-		<strong>google-homepage</strong>
-		<li>Contains a sample of the google home search page and a sample search</li>
+		<li><strong>google-homepage</strong></li>
+		<p>Contains a sample of the google home search page and a sample search</p>
 	</ul>
 	<ul>
-		<strong>project euler problems</strong>
-		<li>Contains the first three problems from Project Euler</li>
+		<li><strong>project euler problems</strong></li>
+		<p>Contains the first three problems from Project Euler</p>
 	</ul>
 	<ul>
-		<strong>sketch-pad</strong>
-		<li>Creates boxes which change color when hovered over</li>
+		<li><strong>sketch-pad</strong></li>
+		<p>Creates boxes which change color when hovered over</p>
+	</ul>
+	<ul>
+		<li><strong>Learn Ruby</strong></li>
+		<p>Contains solutions for Test-First Learn Ruby Problems</p>
+	</ul>
+	<ul>
+		<li><strong>Blogger</strong></li>
+		<p>Contains the rails application for Blogger from Jumpstart Labs</p>
 	</ul>
 </ul>
