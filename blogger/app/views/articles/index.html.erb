@@ -6,4 +6,8 @@
 	<% end %>
 </ul>
 
+<% if logged_in? %>
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+<% else %>
+<%= link_to "Please Register/Login to Post Content", new_author_path, class: "new_article" %>
+<% end %>
